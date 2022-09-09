@@ -1,0 +1,22 @@
+.main-carousel{
+    width: 400px;
+    margin: auto;
+}
+.carousel-cell{
+    width: 150px;
+    margin-right: 40px;
+    opacity: 0.3;
+}
+
+.carousel-cell.is-selected {
+    opacity: 1;
+}
+
+.carousel-cell .container{
+    background-color: green;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding: 1rem;
+    height: 200px;
+}
