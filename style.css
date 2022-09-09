@@ -1,44 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.main-carousel{
-    width: 60%;
-    height: auto;
-    margin: auto;
+.main-carousel {
+  width: 60%;
+  height: auto;
+  margin: auto;
 }
-.carousel-cell{
-    margin-right: 40px;
-    opacity: 0.3;
+.carousel-cell {
+  margin-right: 40px;
+  opacity: 0.3;
 }
 
 .carousel-cell.is-selected {
-    opacity: 1;
+  opacity: 1;
 }
 
-.card{
-    padding: 0 6px;
-    width: 150px;
+.card {
+  padding: 0 6px;
+  width: 150px;
 }
 
 .card .card-image {
-    border: 3px solid #777;
+  border: 3px solid #777;
 }
 
-.card .card-image img{
-    max-width: 100%;
+.card .card-image img {
+  max-width: 100%;
 }
 
-.carousel-cell .card{
-    background-color: green;
-    color: white;
-    font-size: larger;
-    text-align: center;
-    padding: 1rem;
-    border: 1px solid #777;
+.carousel-cell .card {
+  background-color: green;
+  color: white;
+  font-size: larger;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #777;
 }
 
-.card .card-description{
-    margin-top: 20px;
-    
+.card .card-description {
+  margin-top: 20px;
 }
